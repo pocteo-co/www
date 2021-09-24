@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our Team on POCTEO | We BUILD, DESIGN &amp; RUN your Cloud-Native applications!</title>
-    <link>https://pocteo.co/fr/team/</link>
+    <link>http://pocteo.co/fr/team/</link>
     <description>Recent content in Our Team on POCTEO | We BUILD, DESIGN &amp; RUN your Cloud-Native applications!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Copyright &amp;copy; 2021 by [POCTEO](https://pocteo.co)</copyright>
     
-	<atom:link href="https://pocteo.co/fr/team/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pocteo.co/fr/team/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

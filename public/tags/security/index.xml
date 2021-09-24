@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on POCTEO | We BUILD, DESIGN &amp; RUN your Cloud-Native applications!</title>
-    <link>https://pocteo.co/tags/security/</link>
+    <link>http://pocteo.co/tags/security/</link>
     <description>Recent content in Security on POCTEO | We BUILD, DESIGN &amp; RUN your Cloud-Native applications!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2021 by [POCTEO](https://pocteo.co)</copyright>
     <lastBuildDate>Wed, 26 May 2021 10:10:57 +0600</lastBuildDate>
     
-	<atom:link href="https://pocteo.co/tags/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pocteo.co/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CKAD, CKA, CKS Prep Exams</title>
-      <link>https://pocteo.co/service/ckad-cka-cks-prep-exams/</link>
+      <link>http://pocteo.co/service/ckad-cka-cks-prep-exams/</link>
       <pubDate>Wed, 26 May 2021 10:10:57 +0600</pubDate>
       
-      <guid>https://pocteo.co/service/ckad-cka-cks-prep-exams/</guid>
+      <guid>http://pocteo.co/service/ckad-cka-cks-prep-exams/</guid>
       <description>CKS The Certified Kubernetes Security Specialist (CKS) Exam is one of the main performance-based certification exams provided by CNCF.</description>
     </item>
     
     <item>
       <title>Cluster Hardening - GKE</title>
-      <link>https://pocteo.co/service/cluster-hardening-gke/</link>
+      <link>http://pocteo.co/service/cluster-hardening-gke/</link>
       <pubDate>Wed, 26 May 2021 10:10:57 +0600</pubDate>
       
-      <guid>https://pocteo.co/service/cluster-hardening-gke/</guid>
+      <guid>http://pocteo.co/service/cluster-hardening-gke/</guid>
       <description>Kubernetes is continuously getting enhanced, and in order to improve security in its environments, hardening your Google Kubernetes Engine (GKE) cluster is recommended.</description>
     </item>
     
     <item>
       <title>Security Assessment</title>
-      <link>https://pocteo.co/service/security-assessment/</link>
+      <link>http://pocteo.co/service/security-assessment/</link>
       <pubDate>Wed, 26 May 2021 10:10:57 +0600</pubDate>
       
-      <guid>https://pocteo.co/service/security-assessment/</guid>
+      <guid>http://pocteo.co/service/security-assessment/</guid>
       <description>Kubernetes is well-known for its topnotch security assessment. It helps make clusters, containers and workloads safer thanks to a good amount of security controls in its possession.</description>
     </item>
     
     <item>
       <title>System Hardening - Kernel</title>
-      <link>https://pocteo.co/service/system-hardening-kernel/</link>
+      <link>http://pocteo.co/service/system-hardening-kernel/</link>
       <pubDate>Wed, 26 May 2021 10:10:57 +0600</pubDate>
       
-      <guid>https://pocteo.co/service/system-hardening-kernel/</guid>
+      <guid>http://pocteo.co/service/system-hardening-kernel/</guid>
       <description>Minimizing the host OS footprint, identity and access management (IAM) roles, and external access to the network is one of the top priorities for users to improve security and ensure system hardening in Kubernetes environments.</description>
     </item>
     
     <item>
       <title>Policy and Governance</title>
-      <link>https://pocteo.co/service/policy-and-governance/</link>
+      <link>http://pocteo.co/service/policy-and-governance/</link>
       <pubDate>Tue, 18 May 2021 10:10:57 +0600</pubDate>
       
-      <guid>https://pocteo.co/service/policy-and-governance/</guid>
+      <guid>http://pocteo.co/service/policy-and-governance/</guid>
       <description>Policies are implemented in Kubernetes to achieve governance and to assure control of the resources deployed in clusters.</description>
     </item>
     
     <item>
       <title>Runtime Security with Falco</title>
-      <link>https://pocteo.co/service/runtime-security-with-falco/</link>
+      <link>http://pocteo.co/service/runtime-security-with-falco/</link>
       <pubDate>Tue, 18 May 2021 10:10:57 +0600</pubDate>
       
-      <guid>https://pocteo.co/service/runtime-security-with-falco/</guid>
+      <guid>http://pocteo.co/service/runtime-security-with-falco/</guid>
       <description>Falco is a cross-platform cloud-native runtime security tool. It spots unpredicted risks in containers and immediately alerts on application misbehavior, which makes it the go-to threat detection engine for Kubernetes.</description>
     </item>
     
     <item>
       <title>Supply Chain Security</title>
-      <link>https://pocteo.co/service/supply-chain-security/</link>
+      <link>http://pocteo.co/service/supply-chain-security/</link>
       <pubDate>Tue, 20 Apr 2021 10:10:57 +0600</pubDate>
       
-      <guid>https://pocteo.co/service/supply-chain-security/</guid>
+      <guid>http://pocteo.co/service/supply-chain-security/</guid>
       <description>Security is the highest adoption barrier since supply chains can be exploited through bugs, dependent libraries, deliberate vulnerabilities slipped into the source code or the configuration files.</description>
     </item>
     
