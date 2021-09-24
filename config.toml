@@ -1,5 +1,5 @@
 ############################# Default configuration ########################
-baseURL = "http://pocteo.co"
+baseURL = "https://pocteo.co"
 title = "POCTEO | We BUILD, DESIGN & RUN your Cloud-Native applications!"
 theme = "agico-hugo"
 # post pagination
