@@ -1,0 +1,39 @@
+############################## about ###############################
+about:
+  enable : true
+  video_bg_image : "images/about/about-4.jpg"
+  video_thumbnail : "images/about/about-4.jpg"
+  video_link : "https://www.youtube.com/watch?v=PH-2FfFD2PUm"
+  subtitle : "About Pocteo"
+  title : "We build, design and run your cloud-native applications."
+  content : "POCTEO helps with the adoption of Kubernetes in enterprises, and provides various services that range from trainings and consulting to audit and mentoring. Kubernetes has become the norm for container orchestration, and at POCTEO we BUILD your CI/CD pipelines the GitOps way, DESIGN your k8s infrastructure, RUN your clusters 24/7, and test their resiliency with Chaos Engineering."
+  button:
+    enable : true
+    label : "Contact Us"
+    link : "contact"
+
+############################### counter #############################
+funfacts:
+  enable : false
+  funfact_item:
+    # funfact item loop
+    - name : "Downloads per day"
+      count : "8000"
+      
+    # funfact item loop
+    - name : "Design awards"
+      count : "200"
+
+    # funfact item loop
+    - name : "Totally satisfied users"
+      count : "25000"
+
+    # funfact item loop
+    - name : "People behind this app"
+      count : "80"
+
+
+########################### Service ################################
+service:
+  enable : false
+  # service item comes from "data/*/service.yml" file

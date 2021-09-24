@@ -1,0 +1,63 @@
+############################### service ##############################
+service:
+  enable : true
+  subtitle : "Services"
+  title : "Our Services Area"
+  service_item:
+    - title: "Supply Chain Security"
+      link: "/service/supply-chain-security"
+      icon: "fa-link"
+      icon_color: "green" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We guide you to minimize base image footprint and setup a complete supply chain pipeline to secure against well-known vulnerabilities."
+
+    - title: "Policy & Governance"
+      link: "/service/policy-and-governance"
+      icon: "fa-check-circle"
+      icon_color: "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We help you to enforce policies and gain governance in your kubernetes environment using technologies like OPA/Gatekeeper or Kyverno."
+
+    - title: "Security Assessment"
+      link: "/service/security-assessment"
+      icon: "fa-shield"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We can help make your Kubernetes clusters, workloads, and containers safer by following security practices and fixing common issues."
+
+    - title: "Runtime Security with Falco"
+      link: "/service/runtime-security-with-falco"
+      icon: "fa-eye"
+      icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We provide a set of rules to detect unexpected behavior using the Falco security runtime monitoring tool from Sysdig."
+
+    - title: "Cluster Hardening - GKE"
+      link: "/service/cluster-hardening-gke"
+      icon: "fa-server"
+      icon_color: "yellow" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We design and build highly available, reliable and scalable GKE clusters to ensure business continuity during unpredictable usages."
+
+    - title: "System Hardening - Kernel"
+      link: "/service/system-hardening-kernel"
+      icon: "fa-lock"
+      icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We minimize host OS footprint in your Kubernetes clusters as well as kernel access using tools like AppArmor, SELinux and seccomp."
+
+############################### Features #####################################
+feature:
+  enable : true
+  subtitle : "services"
+  title : "exclusive services"
+  feature_item:
+    - title : "Kubernetes Mentorship Program"
+      icon : "fa-road"
+      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "Get a dedicated CKA and CKAD expert mentor to support you for a duration of 4 to 6 months. You'll learn the most relevant skills to become a DevOps engineer and be able to manage the Container as a Service (CaaS) Platform on Kubernetes. At the end of the program, we'll provide you a career coaching service to help you take the next step in your Kubernetes journey."
+      
+    - title : "CKAD, CKA, CKS Prep Exams"
+      link: "/service/ckad-cka-cks-prep-exams"
+      icon : "fa-laptop"
+      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "We will prepare you to understand and demonstrate your Kubernetes knowledge in each of the main points of the CKA, CKAD and CKS exams. Our learning path is designed to help you get a high score from the first attempt. We will provide for you an environment in your browser that simulates the exams and we will present you with useful Kubernetes tutorials."
+      
+    - title : "Grokking the Kubernetes Interview"
+      icon : "fa-graduation-cap"
+      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "Most candidates struggle with the Kubernetes job interview, partly because of their lack of experience in building CI/CD container-based pipelines or because they aren't comfortable with Kubernetes cluster administration. This service is tailored to your needs, and will help you with a set of questions and hands-on scenarios to pass the Kubernetes interview."

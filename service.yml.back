@@ -1,0 +1,106 @@
+############################### service ##############################
+service:
+  enable : true
+  subtitle : "Services"
+  title : "Our Services Area"
+  service_item:
+    - title: "Consulting & Support"
+      icon: "fa-comments"
+      icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We assist you throughout your Kubernetes adoption journey by providing you with counsel and support."
+
+    - title: "Kubernetes Roadmap Sessions"
+      icon: "fa-calendar"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We help you establish a Kubternetes roadmap, prioritize topics and review your adoption strategy to better achieve your goals."
+
+    - title: "Training Sessions"
+      icon: "fa-users"
+      icon_color: "yellow" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We provide instructor-led training sessions for Developers, Administrators and Security Engineers with hands-on exercises."
+
+    - title: "Ask Me Anything (AMA) Sessions"
+      icon: "fa-comment"
+      icon_color: "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Got a question or need help with something? Look no further, we answer most of Kubernetes-related topics/issues."
+
+    - title : "CI/CD Pipelines & GitOps"
+      icon : "fa-object-ungroup"
+      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "We provide Cloud-Native CI pipelines using **Tekton**, & GitOps-based delivery pipelines using **ArgoCD** to easily push changes to production."
+
+    - title : "Deployment Strategies"
+      icon : "fa-cloud-upload"
+      icon_color : "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "We reduce your Time-to-Market and achieve a Zero-Downtime kubernetes deployment using Rolling Update, Blue/Green and Canary strategies."
+
+    - title: "Logging & Monitoring"
+      icon: "fa-line-chart"
+      icon_color: "blue" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We help you collect efficient logs, monitor your Kubternetes clusters, view metrics in Grafana dashboards, and set up alerts and notifications."
+
+    - title: "Kubernetes cost analysis"
+      icon: "fa-dollar"
+      icon_color: "green" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We give you real-time cost allocations for all your k8s resources to gain visibility and to optimize your invoice by using the Kubecost tool."
+
+    - title: "Runtime Security with Falco"
+      icon: "fa-eye"
+      icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We provide a set of rules to detect unexpected application behavior using the Falco security runtime monitoring tool from Sysdig."
+
+    - title: "Security Assessment"
+      icon: "fa-shield"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We can help make your Kubernetes clusters, workloads, and containers safer by following security practices and fixing common issues."
+
+    - title : "Policy & Governance"
+      icon : "fa-check-circle"
+      icon_color : "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "We help you to enforce policies and gain governance in your kubernetes environment using technologies like OPA/Gatekeeper or Kyverno."
+
+    - title: "Supply Chain Security"
+      icon: "fa-link"
+      icon_color: "green" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We guide you to minimize base image footprint and setup a complete supply chain pipeline to secure against well-known vulnerabilities."
+
+    - title: "GKE Setup & Hardening"
+      icon: "fa-server"
+      icon_color: "yellow" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We design and build highly available, reliable and scalable GKE clusters to ensure business continuity during unpredictable usages."
+
+    - title: "System Hardening - Kernel"
+      icon: "fa-lock"
+      icon_color: "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "We minimize host OS footprint in your Kubernetes clusters as well as kernel access using tools like AppArmor, SELinux and seccomp."
+
+    - title : "Debugging & Troubleshooting"
+      icon : "fa-search-plus"
+      icon_color : "green" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "If you're having a hard time with your kubernetes cluster, we help you identify the issue, find what's causing it, and fix it."
+      
+    - title : "Chaos Engineering"
+      icon : "fa-unlink"
+      icon_color : "orange" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "We test the resilience of your services and find defects on your clusters/applications by running Chaos test suites using Litmus."
+
+############################### Features #####################################
+feature:
+  enable : true
+  subtitle : "services"
+  title : "exclusive services"
+  feature_item:
+    - title : "Kubernetes Mentorship Program"
+      icon : "fa-road"
+      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "Get a dedicated CKA and CKAD expert mentor to support you for a duration of 4 to 6 months. You'll learn the most relevant skills to become a DevOps engineer and be able to manage the Container as a Service (CaaS) Platform on Kubernetes. At the end of the program, we'll provide you a career coaching service to help you take the next step in your Kubernetes journey."
+      
+    - title : "CKAD, CKA, CKS Prep Exams"
+      icon : "fa-laptop"
+      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "We will prepare you to understand and demonstrate your Kubernetes knowledge in each of the main points of the CKA, CKAD and CKS exams. Our learning path is designed to help you get a high score from the first attempt. We will provide for you an environment in your browser that simulates the exams and we will present you with useful Kubernetes tutorials."
+      
+    - title : "Grokking the Kubernetes Interview"
+      icon : "fa-graduation-cap"
+      icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content : "Most candidates struggle with the Kubernetes job interview, partly because of their lack of experience in building CI/CD container-based pipelines or because they aren't comfortable with Kubernetes cluster administration. This service is tailored to your needs, and will help you with a set of questions and hands-on scenarios to pass the Kubernetes interview."

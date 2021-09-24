@@ -1,0 +1,148 @@
+############################### Banner #################################
+banner:
+  enable : true
+  bg_image : "images/background/banner.png"
+  title : "We BUILD, DESIGN & RUN your Cloud-Native applications!"
+  watermark : "Kubernetes"
+  content : ""
+  image : "images/banner/banner-1.png"
+  button:
+    enable : flse
+    label : "Contact Us"
+    link : "/contact"
+
+############################## Partners #################################
+partner:
+  enable : false
+  partner_logo:
+  - "images/partner/client-logo-1.png"
+  - "images/partner/client-logo-2.png"
+  - "images/partner/client-logo-3.png"
+  - "images/partner/client-logo-4.png"
+  - "images/partner/client-logo-5.png"
+
+################################ Features ###############################
+feature:
+  enable : false
+  subtitle : "fetures"
+  title : "exclusive features"
+  feature_item:
+    # feature item loop
+    - name : "BUILD"
+      image : "images/feature/feature-1.png"
+      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+      
+    # feature item loop
+    - name : "DESIGN"
+      image : "images/feature/feature-2.png"
+      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+
+    # feature item loop
+    - name : "RUN"
+      image : "images/feature/feature-3.png"
+      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+
+##################################### About #############################
+about:
+  enable : true
+  about_item:
+    # about item loop
+    - image : "images/about/about-1.png"
+      subtitle : "We Build"
+      title : "Your CI/CD pipelines with Kubernetes!"
+      content : "We use powerful and flexible open-source frameworks that provide kubernetes-style resources for declaring CI/CD-style pipelines such as **Tekton** and **ArgoCD**, we make deploying faster and allow you to deploy more often."
+      button:
+        enable : false
+        label : "read more"
+        link : "about"
+
+    - image: "images/about/about-2.jpeg"
+      subtitle: "We Design"
+      title: "Your infrastructure and deployment strategies"
+      content: "We provide production-grade design/architecture ADRs (Architecture Decision Record) for your clusters and/or identify gaps and issues for your existing ones. We can also determine all enhancements including deployment strategies such as blue/green, canary and define the costs and benefits of proposed solutions. "
+      button:
+        enable: false
+        label: "read more"
+        link: "about"
+        
+    # about item loop
+    - image : "images/about/about-3.jpg"
+      subtitle : "We Run"
+      title : "highly secure, scalable & reliable kubernetes clusters"
+      content : "We evangelize **SRE** best practices for operating kubernetes clusters, and automate everyting from infrastructure to day-to-day tasks using bash/goLang scripts and k8s operators. We also assist you with all aspects of operational security and compliance, and seek out potential threats using **Falco**, **Kyverno**, **OPA/Gatekeeper**, etc. We work mainly with Google Cloud Platform, **Prometheus/Grafana** for observability, **EFK** for logging and **Litmus** for Chaos Engineering!"
+      button:
+        enable : false
+        label : "read more"
+        link : "about"
+
+############################ video ###############################
+promo_video:
+  enable : false
+  video_thumbnail : "images/check-video.png"
+  video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
+  subtitle : "Check Video"
+  title : "Best Way to Chat Your Customers."
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi aliquip commodo consequat. duis aute.
+  
+
+  Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident."
+
+# testimonial
+testimonial:
+  enable : false
+  subtitle : "testimonial"
+  title : "What Our Clients Says?"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+            
+    # testimonial item loop
+    - name : "Alice kelly"
+      designation : "Happy client"
+      content : Lorem ipsum dolor amet constur adipi sicing elit sed eiusmtempor incid dolore magna aliqu.
+            enim minim veniam quis nostrud exercittion.ullamco laboris nisi ut aliquip excepteur sint occaecat cuida
+            tat nonproident sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis.
+
+############################## Download ###########################
+download:
+  enable : false
+  title : "Download Pocteo Now"
+  image : "images/download-mobile-img.jpg"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation."
+  playstore:
+    label : "Google Play"
+    link : "#"
+  appstore:
+    label : "app store"
+    link : "#"
+
+    
+############################## pricing ###########################
+pricing:
+  enable : false
+  # pricing item comes from "data/*/pricing.yml"

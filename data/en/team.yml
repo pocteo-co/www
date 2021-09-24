@@ -1,0 +1,26 @@
+team:
+  enable : true
+  subtitle : ""
+  title : "Our Team"
+  team_member:
+    # team member
+    - name : "Walid Dridi"
+      image : "images/team/team-member-1.jpg"
+      designation : "Founder - DevOps/SRE"
+      social:
+        - icon : "fa-twitter"
+          link : "https://twitter.com/dridi_w"
+
+        - icon : "fa-linkedin"
+          link : "https://www.linkedin.com/in/dridi-walid/"
+          
+    # team member
+    - name : "Nour Ayari"
+      image : "images/team/team-member-6.jpg"
+      designation : "Marketer/English Coach"
+      social:
+        - icon : "fa-twitter"
+          link : "#"
+
+        - icon : "fa-linkedin"
+          link : "https://www.linkedin.com/in/nour-ayari-b7796814a/"

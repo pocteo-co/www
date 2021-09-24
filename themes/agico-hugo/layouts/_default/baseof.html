@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+    {
+        "@context": "https://pocteo.co",
+        "@type": "Kubernetes Consulting Company",
+        "name": "POCTEO",
+        "description": "We provide consulting and training services that cover different aspects of Kubernetes. Need help with implementing and assessing your Cloud-native infrastructure? You're at the right place!",
+        "telephone": "+33635552200",
+        "services":
+        [
+            {
+                "@type": "Exclusive Services",
+                "name": "Kubernetes Mentorship Program",
+                "description": "Get a dedicated CKA and CKAD expert mentor to support you in a 4-to-6-month Kubernetes Mentorship Program.",
+            },
+            {
+                "@type": "Exclusive Services",
+                "name": "CKAD, CKA, CKS Prep Exams",
+                "description": "We will help you prepare, understand and demonstrate your Kubernetes knowledge in the CKA, CKAD and CKS exams.",
+            },
+            {
+                "@type": "Exclusive Services",
+                "name": "Grokking The Kubernetes Interview",
+                "description": "We will help you with a set of questions tailored to your needs and hands-on scenarios to pass the Kubernetes interview.",
+            }
+        ]
+    }
+</script>
+{{- partial "head.html" . -}}
+
+<body>
+	{{- partial "preloader.html" . -}}
+	{{- partial "header.html" . -}}
+	{{ if not .IsHome }}
+	{{ partial "page-header.html" . }}
+	{{ end }}
+	{{- block "main" . }}{{- end }}
+	{{ partial "subscription.html" . }}
+	{{- partial "footer.html" . -}}
+</body>
+
+<!--<script>(function(w, d) { w.CollectId = "60283f50e9cf8d150b3ab2be"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>-->
+
+</html>

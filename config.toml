@@ -1,0 +1,235 @@
+############################# Default configuration ########################
+baseURL = "https://pocteo.co"
+title = "POCTEO | We BUILD, DESIGN & RUN your Cloud-Native applications!"
+theme = "agico-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "pocteo-co" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+
+################################### Plugins #################################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/font-awesome/font-awesome.min.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/aos/aos.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/aos/aos.js"
+
+
+########################### Default parameters ###########################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "We build, design & run your Cloud-Native applications!"
+author = "POCTEO"
+# contact info
+address = "49 Rue de Ponthieu, 75008 Paris, France"
+mobile = "+33635552200"
+email = "contact@pocteo.co"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "G-CKZ9Z19T7B"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif"
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "sign up"
+link = "#"
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://pocteo.us6.list-manage.com/subscribe/post?u=cb6442b88388e74a608927893&amp;id=d75a90bc80" # replace this url with yours
+mailchimp_form_name = "b_cb6442b88388e74a608927893_d75a90bc80" # replace this code with yours
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA0_HqSLVTU4AX-Dh7pzv3VfnJAERluMYc"
+map_latitude = "48.871690"
+map_longitude = "2.306110"
+map_marker = "images/marker.png"
+map_marker_label = "Pocteo"
+map_zoom = 12
+
+########################### social icon ############################
+
+[[params.social]]
+icon = "fa-twitter"
+link = "https://twitter.com/pocteo_co"
+
+[[params.social]]
+icon = "fa-github"
+link = "https://github.com/pocteo-labs"
+
+[[params.social]]
+icon = "fa-linkedin"
+link = "https://www.linkedin.com/company/pocteo-consulting"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# footer content
+footer_content = "POCTEO helps with the adoption of Kubernetes in enterprises, and provides various services that range from trainings and consulting to audit and mentoring. Kubernetes has become the norm for container orchestration, and at POCTEO we BUILD your CI/CD pipelines the GitOps way, DESIGN your k8s infrastructure, RUN your clusters 24/7, and test their resiliency with Chaos Engineering."
+# copyright
+copyright = "Copyright &copy; 2021 by [POCTEO](https://pocteo.co)"
+
+
+############################ English navigation
+
+[[Languages.en.menu.main]]
+name = "About"
+URL = "about"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Services"
+URL = "service"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "E-Card"
+URL = "card"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Team"
+URL = "team"
+weight = 5
+
+[[Languages.en.menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 6
+
+#Footer menu
+[[Languages.en.menu.footer]]
+name = "About us"
+URL = "about"
+
+[[Languages.en.menu.footer]]
+name = "Contact us"
+URL = "contact"
+
+[[Languages.en.menu.footer]]
+name = "Services"
+URL = "service"
+
+
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
+# footer content
+footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit."
+# copyright
+copyright = "Copyright &copy; 2021 by [POCTEO](https://pocteo.co)"
+
+
+############################ French navigation
+
+# main menu
+[[Languages.fr.menu.main]]
+name = "About"
+URL = "about"
+weight = 2
+
+[[Languages.fr.menu.main]]
+name = "Service"
+URL = "service"
+weight = 3
+
+[[Languages.fr.menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 4
+
+[[Languages.fr.menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 5
+
+[[Languages.fr.menu.main]]
+weight = 6
+name = "Pages"
+hasChildren = true
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "Pricing"
+  URL = "pricing"
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "Career"
+  URL = "career"
+
+  [[Languages.fr.menu.main]]
+  parent = "Pages"
+  name = "Team"
+  URL = "team"
+
+#Footer menu
+[[Languages.fr.menu.footer]]
+name = "Company History"
+URL = "about"
+
+[[Languages.fr.menu.footer]]
+name = "About us"
+URL = "about"
+
+[[Languages.fr.menu.footer]]
+name = "Contact us"
+URL = "contact"
+
+[[Languages.fr.menu.footer]]
+name = "Services"
+URL = "service"
+
+[[Languages.fr.menu.footer]]
+name = "Privacy Policy"
+URL = "#"

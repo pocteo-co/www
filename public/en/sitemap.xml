@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://pocteo.co/categories/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/ckad-cka-cks-prep-exams/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/cluster-hardening-gke/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/service/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/service/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/tags/security/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/categories/security/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/security-assessment/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/system-hardening-kernel/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/tags/</loc>
+    <lastmod>2021-05-26T10:10:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/policy-and-governance/</loc>
+    <lastmod>2021-05-18T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/runtime-security-with-falco/</loc>
+    <lastmod>2021-05-18T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/service/supply-chain-security/</loc>
+    <lastmod>2021-04-20T10:10:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/career/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/career/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/career/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/contact/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/search/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/search/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/career/web-project-manager.1/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/career/web-project-manager.1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/career/web-project-manager.1/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/career/web-project-manager.2/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/career/web-project-manager.2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/career/web-project-manager.2/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/career/web-project-manager.3/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/career/web-project-manager.3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/career/web-project-manager.3/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/career/web-project-manager.4/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/career/web-project-manager.4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/career/web-project-manager.4/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/career/web-project-manager.5/</loc>
+    <lastmod>2019-04-10T09:51:57+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/career/web-project-manager.5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/career/web-project-manager.5/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/blog/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/card/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/pricing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/pricing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/pricing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pocteo.co/team/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pocteo.co/fr/team/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pocteo.co/team/"
+                />
+  </url>
+  
+</urlset>

@@ -1,0 +1,39 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<style>
+    h6 {
+        text-transform: none;
+        font-size: small;
+    }
+</style>
+{{"<!-- service -->" | safeHTML }}
+<section class="section section-lg-bottom">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-lg-6 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="1">
+        <div class="card border-0 shadow rounded-xs pt-5">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <h3>
+                  Dridi Walid
+                </h3>
+                <h5><i>DevOps/SRE, Kubernetes Consultant</i></h5>
+                <br>
+                <p>49 Rue de Ponthieu, 75008 Paris, France</p>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <br><br><br>
+                <h6>Email: contact@pocteo.co</h6>
+                <h6>Tel: +33635552200</h6>
+                <h6>Website: <a href="https://pocteo.co" target="_blank">https://pocteo.co</a></h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{"<!-- service -->" | safeHTML }}
